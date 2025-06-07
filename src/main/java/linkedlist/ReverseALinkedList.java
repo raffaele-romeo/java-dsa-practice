@@ -1,26 +1,8 @@
 package linkedlist;
 
-import java.util.List;
 import java.util.Stack;
 
 public class ReverseALinkedList {
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
-
     public ListNode reverseListWithStack(ListNode head) {
         var stack = new Stack<ListNode>();
 
